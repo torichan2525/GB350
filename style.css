@@ -20,7 +20,7 @@
   border: #fbab40;
   height: 100vh;
   background-color: #242628;
-  background-image: url(https://gb350.pages.dev/world.svg);
+  background-image: url(world.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 70px;
@@ -156,4 +156,12 @@
   li {
     margin-bottom: 5px;
   }
+}
+
+
+
+.backpage a {
+color:rgb(255, 255, 255);
+text-decoration:underline;
+text-decoration: none; 
 }
