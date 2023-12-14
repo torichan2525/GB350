@@ -168,13 +168,29 @@ text-decoration: none;
 
 /* GB350.comページ用 */
 
+/* 戻るコンテンツ用　*/
+
 .back a {
   color: #000000;
 }
 
 .back span:hover {
-  color: #000000;
   text-decoration: underline;
 }
+/* 戻るコンテンツ用　*/
+
+/* ホームページテキスト用 */
+
+.wp-block-heading a {
+  text-decoration: none;
+}
+
+.wp-block-heading span:hover{
+  text-decoration: underline;
+}
+
+/* ホームページテキスト用 */
+
+
 
 /* GB350.comページ用 */
