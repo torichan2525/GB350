@@ -181,7 +181,7 @@ text-decoration: none;
 
 /* ホームページテキスト用 */
 
-.wp-block-heading a {
+.wp-block-heading a span {
   text-decoration: none;
 }
 
