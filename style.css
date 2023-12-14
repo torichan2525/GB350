@@ -173,6 +173,7 @@ text-decoration: none;
 }
 
 .back span:hover {
+  color: #000000;
   text-decoration: underline;
 }
 
