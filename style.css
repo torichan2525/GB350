@@ -160,10 +160,14 @@
 
 
 
-.backpage a {
+.backpage a{
 color:rgb(255, 255, 255);
 text-decoration:underline;
 text-decoration: none; 
+}
+
+.backpage a:hover{
+  color: rgb(246, 130, 31);
 }
 
 /* GB350.comページ用 */
@@ -194,3 +198,4 @@ text-decoration: none;
 
 
 /* GB350.comページ用 */
+
