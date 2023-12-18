@@ -1,34 +1,78 @@
+<!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GB350.com | Welcome Pages</title>
-    <link href="style.css" rel="stylesheet" />
-    <link rel="icon" type="image/jpg" href="https://gb350.torichan.one/img/favicon.png">
-  </head>
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+  <title>ホーム｜GB350ニュース</title>
+  <link rel="icon" type="image/png" href="https://gb350.netlify.app/favicon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
 
-  <body>
-    <div class="container">
-      <div class="header">
-        <h3>GB350.com</h3>
-        <h1>Welcome to GB350.com</h1>
-        <p>
-          GB350.comへようこそ。 <br />
-          しかし、あなたはこのページを訪れるべきではなかったかもしれません。
-        </p>
-        <p>下のボタンを押して前のページへ戻るか、ホームページへお戻りください。</p>
-        <div class="backpage">
-            <p class="back" style="text-align:center"><a href="#" onClick="history.back(); return false;" >前のページにもどる
-            <img src="backpage-wt.svg" alt="Back" width="20" height="15" onselectstart="return false;" onmousedown="return false;"></a></p>
-        </div>
-      <section class="learn-more">
-        <a
-          href="https://GB350.com">
-          <button>ホームへ戻る</button>
-        </a>
-      </section>
-      </div>
-    </div>
-  </body>
+<body>
+  <header class="text">
+    <h2 class="header-logo">
+      <a href="index.html" style="text-decoration:none;">News.GB350.com</a>
+    </h2>
+    <nav class="gnav">
+        <ul class="gnav-list">
+          <li class="gnav-item"><a href="index.html">HOME</a></li>
+          <li class="gnav-item"><a href="info.html">INFO</a></li>            
+          <li class="gnav-item"><a href="about.html">ABOUT</a></li>
+          <li class="gnav-item"><a href="http://gb350.com/contact">CONTACT</a></li>
+        </ul>
+        <!--
+    <nav class="crumbs">
+        <ol>
+            <li class="crumb"><a href="#">Home</a></li>
+            <li class="crumb"><a href="#">News</a></li>
+            <li class="crumb">Jump Bike 3000</li>
+          </ol>
+
+      </nav>
+      -->
+  </header>
+  
+  <main>
+
+    <div class="news">
+        <h2 class="text">新着情報</h2>
+
+
+ 
+        <ul class="news1">
+          <li>
+            <a href="#"><span>2023.11.23</span>
+              <span class="list-info-category">NEW</span>Honda、GB350Cを発表。
+            </a>
+          </li>
+        <li>
+            <a href="#">
+              <span>2023.07.23</span>Honda,GB350を今日から発売。</a>
+        </li>
+        
+          <li><a href="#"><span>2023.11.22</span> 
+            Honda、GB3502023年モデルを発表する。</a>
+        </li>
+        <button class="more"><a href="https://gb350.com">もっとみる</a></button>    </class>
+     <section>
+      <h1 class="text">ラジオ</h1>
+      <p>
+        ラーニング<br>
+        次の番組<br>
+        午前11:54
+      </p>
+    </section>
+    <p class="back" style="text-align:center"><a href="#" onClick="history.back(); return false;" >前のページにもどる<img src="https://torichan.one/img/bakcpage.svg" alt="Back" width="22" height="22" onselectstart="return false;" onmousedown="return false;"></a></p>
+
+  </main>
+  <nav class="gnav"></nav>
+  <br>
+    <footer class="footer">
+        <div class="copyright"><a href="https://gb350.com" target="_blank"rel="noopener">GB350.com</a></div>
+        <div class="copyright"><a href="https://gb350.com/contact" target="_blank"rel="noopener">お問い合わせ</a></div>
+        <div class="copyright"><a href="https://gb350.com/privacy-policy" target="_blank"rel="noopener">プライバシーポリシー</a></div>
+        <div class="copyright">&copy;News.GB350.com</div>
+      </footer> 
+</body>
 </html>
