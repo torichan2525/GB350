@@ -1,0 +1,400 @@
+@import url(//use.fontawesome.com/releases/v5.6.3/css/all.css);
+/*-----------------------------------------------------
+ニュースタブ
+-----------------------------------------------------*/
+.news
+text-align: center;
+
+.news ul{ /*全体の幅調整*/
+    width:500px;
+  }
+  .news li{
+    border-bottom:1px solid #ccc;
+    list-style:none;
+  }
+  .news a{
+    text-decoration:none;
+    display: block;
+    padding: 10px 0;
+  }
+  .news hover{ /* マウスホバー時の挙動の追加*/
+    background-color:#f2f2f2;
+  }
+  .news span{ /*日付のデザインを追加*/
+      color: #737373;
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: 10px;
+  }
+  .news p{ /*全体のサイズ感を調整*/
+      color: #131313;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      vertical-align: middle;
+  }
+
+
+  .news ul { /*リスト周りに装飾を追加*/
+    border: solid 2px skyblue;
+    border-radius: 5px;
+    padding: 0.5em 1em 0.5em 2.3em;
+    position: relative;
+  }
+  
+  .news ul .newsli {
+    line-height: 1.5;
+    padding: 0.5em 0;
+    list-style-type: none!important;
+  }
+
+
+
+  .new-info{
+    text-decoration: none;
+    color: rgb(138, 171, 183);
+  }
+  .new-info:after{
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "FontAwesome"; 
+    font-weight: 1;
+    content: '\f138';/*アイコンの種類*/
+    margin-left: 5px;
+    padding-top: 1em; /* アイコンの位置*/
+  }
+
+  
+/*
+  .news ul li:before {
+    
+    font-family: "FontAwesome";
+    content: "\f138";/*アイコンの種類*//*
+    padding-top: 1em; /* アイコンの位置*//*
+    font-size: 1em; /*サイズ*//*
+    position: absolute; /*場所*//*
+    left : 1em;/*左端からのアイコンまでの距離*//*     
+    color: rgb(138, 171, 183);/*アイコン色*//*
+  }
+  */
+    .list-info-category {
+      font-size: 9px;
+      padding: 1px 6px;
+    }
+  
+    .list-info-category { /*このコンテンツはニュースタブのNEWの文字の装飾をしてる*/
+      color: #FF9508;
+      font-size: 10px;
+      vertical-align: middle;
+      border: 1px solid #FF9508;
+      border-radius: 20px;
+      padding: 1px 6px;
+      line-height: 1;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+    .news1 span{ /*日付のデザインを追加*/
+      color: #737373;
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: 10px;
+  }
+    .news1{
+      margin: 0;
+      padding: 0;
+    }
+    .news1 li{
+      list-style: none;
+      margin: 0 0 8px 0;
+    }
+    .news1 li:last-child{
+      margin-bottom: 0px;
+    }
+    .news1 li a{
+      text-decoration: none;
+      display: block;
+      position: relative;
+      padding: 8px calc(1em + 10px) 8px 5px;	
+      line-height: 1.4;
+      background: rgb(255, 255, 255);
+      color: #990000;
+    }
+    .news1 li a:after{
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 5px;
+      width: 1em;
+      height: 1em;
+      line-height: 1em;
+      margin: auto;
+      text-align: center;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      font-family: "FontAwesome"; 
+      font-weight: 900;
+      content: '\f105';
+    }
+
+    .news2 li a:after{
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 5px;
+      width: 1em;
+      height: 1em;
+      line-height: 1em;
+      margin: auto;
+      text-align: center;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      font-family: "FontAwesome"; 
+      font-weight: 900;
+      content: '\f35d';
+    }
+    .news1 a:hover{ /* マウスホバー時の挙動の追加*/
+      background-color:#f2f2f2;
+    }
+    .news1 ul { /*リスト周りに装飾を追加*/
+      border: solid 2px skyblue;
+      border-radius: 5px;
+      padding: 0.5em 1em 0.5em 2.3em;
+      position: relative;
+    }
+    .news1 li{
+      border-bottom:1px solid #ccc;
+      list-style:none;
+    }
+    .more{
+      text-align: center;
+      display: block;
+      border: none;
+      padding: 0 20px;
+      height: 40px;
+      line-height: 1;
+      background: #aaa;
+      color: #fff;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      text-align: center;
+      
+    }
+    .more:before{
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      font-family: "FontAwesome"; 
+      font-weight: 900;
+      content: '\f138';
+      margin-right: 5px;
+    }
+/*-----------------------------------------------------
+  ヘッダー gb350
+-----------------------------------------------------*/
+  .header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
+  }
+  
+  .header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+  
+  .header-logo {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    margin-right: 0%; /*ここをいじるとNews.gb350.comの文字が左に行く*/
+    letter-spacing: .1em;
+  }
+  
+  .header-logo a {
+    color: #000;
+  }
+
+  .header .container {
+    padding: 15px;
+  }
+
+/*-----------------------------------------------------
+ヘッダー　横 header gnav タブ
+-----------------------------------------------------*/
+
+.gnav-list {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0%; /*ここをいじると各ページへのアクセスリンク(HOME,WORKSなど)が動く*/
+    margin-right: 3.5%; /*上と同じ*/
+  }
+  
+  .gnav-item:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .gnav-item a {
+    position: relative;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 0;
+    transition: .3s;
+    letter-spacing: .05em;
+    color: #333;
+  }
+  .gnav-item a:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    content: "";
+    transition: .3s;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #333;
+  }
+  
+  .gnav-item a:hover:after {
+    width: 100%;
+  }
+  .gnav-item:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .gnav-item a {
+    font-size: 10px;
+  }
+
+  .gnav-item a:after {
+    display: none;
+  }
+
+  .gnav a{
+    text-decoration: none;
+  }
+
+/*-----------------------------------------------------
+ nav : navi
+-----------------------------------------------------*/
+
+  nav {
+    border-bottom: 1px solid black;
+  }
+  
+  .crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .crumb {
+    display: inline-block;
+  }
+  
+  .crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+  }
+  
+
+/*-----------------------------------------------------
+ フッター
+-----------------------------------------------------*/
+
+  .footer {
+    padding: 0px;
+    background-color: rgb(255, 255, 255);   
+  }
+  
+  
+  .copyright {
+    font-size: 10px;
+    text-align: center;
+    color: #797979;
+  }
+  
+  .footer a {color: rgb(0, 0, 0); text-decoration: none}
+  .footer a:hover{
+    color:#907676
+  }
+
+
+/*-----------------------------------------------------
+本文
+-----------------------------------------------------*/
+
+  section{
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .text{
+    text-align: center;
+  }
+
+/*-----------------------------------------------------
+ mv
+-----------------------------------------------------*/
+
+  .mv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    text-align: center;
+  }
+  
+  .mv-container {
+    padding: 0 40px;
+  }
+  
+  .mv-title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    letter-spacing: .1em;
+  }
+  .mv-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 40px;
+    letter-spacing: .08em;
+  }
+  
+  .mv-text {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+
+  .c-articleModule__image a .landscape {
+    -o-object-position: top;
+    object-position: top;
+    font-family: 'object-fit: cover; object-position: top;'
+}
