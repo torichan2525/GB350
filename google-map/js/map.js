@@ -44,4 +44,7 @@ function map_canvas() {
       
     //地図描画を実行
     google.maps.event.addDomListener(window, 'load', map_canvas);
+
+<script type='text/javascript' src='//maps.google.com/maps/api/js?key=AIzaSyCZtuhSviWhr9rnUzDviTrXiZk1GHvNDEc'></script>
+
     
