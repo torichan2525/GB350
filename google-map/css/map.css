@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+div {
+none
+}
 
 html {
   line-height: 1;
@@ -60,7 +62,6 @@ header h1 {
   font-size: 18px;
   padding: 10px;
 }
-
 #main {
   margin: 20px;
 }
