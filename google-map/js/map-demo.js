@@ -16,7 +16,7 @@ async function initMap() {
         </p>
         <p>
           Attribution: Uluru,
-          <a href="https://GB350.com">
+          <a href="https://gb350.com">
             https://GB350.com
           </a>
           (last visited June 22, 2009).
