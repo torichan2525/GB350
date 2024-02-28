@@ -15,11 +15,11 @@ async function initMap() {
         ここに詳細を記載
         </p>
         <p>
-          Attribution: Uluru,
+          Attribution: GB350.com,
           <a href="https://gb350.com">
             https://GB350.com
           </a>
-          (last visited June 22, 2009).
+          (last visited March 1, 2024).
         </p>
       </div>
     </div>`;
