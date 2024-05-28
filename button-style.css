@@ -37,4 +37,7 @@
     );
     transition: all 0.475s;
   }
-  
+  .dlbutton {
+  width: 30em;
+  height:3em;
+}
